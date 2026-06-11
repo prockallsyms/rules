@@ -2,10 +2,13 @@ author = "prockallsyms"
 name = "rust-weak-crypto"
 platform = "posix-binary"
 architecture = "*:*:*"
--- RustCrypto weak hashes (md2/md4/md5/sha1) + weak ciphers (DES/3DES/RC4) + small RSA.
--- v0-mangled; match crate+type fragments. (CWE-327/CWE-328)
+-- RustCrypto weak hashes (md2/md4/md5/sha1) + weak ciphers (DES/3DES/RC4). Match the
+-- CRATE-NAME path components, which appear identically in BOTH legacy (_ZN…) and v0 (_R…)
+-- mangling — robust across symbol-mangling-version. (Real RustCrypto types are Md5Core/
+-- Sha1Core/Rc4State, NOT bare Md5/Sha1 — so type-name fragments like "3Md5" do NOT match
+-- real crates; verified against md-5 0.10 / sha1 0.10 / des 0.8 / rc4 0.1.) (CWE-327/CWE-328)
 scopes = scope:functions{
-  target = {matching = "3Md2|3Md4|3Md5|4Sha1|3Des|3Rc4|8TdesEde3|13RsaPrivateKey", kind = "symbol"},
+  target = {matching = "3md2|3md4|3md5|4sha1|3des|3rc4", kind = "symbol"},
   with = check }
 function check(project, context)
   return result:medium{name="rust-weak-crypto",
