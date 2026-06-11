@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "cpp-qt-weak-tls-protocol"
 platform = "posix-binary"
 architecture = "*:*:*"

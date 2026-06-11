@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "rust-risky-std-api"
 platform = "posix-binary"
 architecture = "*:*:*"

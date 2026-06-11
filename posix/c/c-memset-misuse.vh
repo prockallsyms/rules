@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "c-memset-misuse"
 platform = "posix-binary"
 architecture = "*:*:*"

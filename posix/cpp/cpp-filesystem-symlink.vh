@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "cpp-filesystem-symlink-follow"
 platform = "posix-binary"
 architecture = "*:*:*"

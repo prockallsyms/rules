@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "c-curl-insecure-options"
 platform = "posix-binary"
 architecture = "*:*:*"

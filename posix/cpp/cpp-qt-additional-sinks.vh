@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "cpp-qt-additional-sinks"
 platform = "posix-binary"
 architecture = "*:*:*"

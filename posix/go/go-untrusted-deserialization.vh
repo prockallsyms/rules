@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "go-untrusted-deserialization"
 platform = "posix-binary"
 architecture = "*:*:*"

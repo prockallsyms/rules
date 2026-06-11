@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "c-insecure-temp-file"
 platform = "posix-binary"
 architecture = "*:*:*"

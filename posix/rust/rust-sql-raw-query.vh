@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "rust-raw-sql-query"
 platform = "posix-binary"
 architecture = "*:*:*"

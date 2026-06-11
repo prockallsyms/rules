@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "go-insecure-randomness"
 platform = "posix-binary"
 architecture = "*:*:*"

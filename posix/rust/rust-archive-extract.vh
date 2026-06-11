@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "rust-archive-extraction"
 platform = "posix-binary"
 architecture = "*:*:*"

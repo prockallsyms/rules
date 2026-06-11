@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "c-untrusted-media-parser"
 platform = "posix-binary"
 architecture = "*:*:*"

@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "c-tls-verification-disabled"
 platform = "posix-binary"
 architecture = "*:*:*"

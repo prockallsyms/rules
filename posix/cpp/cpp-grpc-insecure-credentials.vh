@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "cpp-grpc-insecure-credentials"
 platform = "posix-binary"
 architecture = "*:*:*"

@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "c-obsolete-api"
 platform = "posix-binary"
 architecture = "*:*:*"

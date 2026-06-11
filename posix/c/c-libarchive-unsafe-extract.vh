@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "c-libarchive-unsafe-extract"
 platform = "posix-binary"
 architecture = "*:*:*"

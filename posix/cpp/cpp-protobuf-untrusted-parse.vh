@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "cpp-protobuf-untrusted-parse"
 platform = "posix-binary"
 architecture = "*:*:*"

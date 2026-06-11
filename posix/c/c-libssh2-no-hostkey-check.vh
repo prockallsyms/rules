@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "c-libssh2-no-hostkey-check"
 platform = "posix-binary"
 architecture = "*:*:*"

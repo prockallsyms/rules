@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "c-sqlite-load-extension-enabled"
 platform = "posix-binary"
 architecture = "*:*:*"

@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "go-text-template-injection"
 platform = "posix-binary"
 architecture = "*:*:*"

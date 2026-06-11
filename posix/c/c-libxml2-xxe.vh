@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "c-libxml2-xxe"
 platform = "posix-binary"
 architecture = "*:*:*"

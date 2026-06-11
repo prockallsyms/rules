@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "c-openssl-lowlevel-weak-crypto"
 platform = "posix-binary"
 architecture = "*:*:*"

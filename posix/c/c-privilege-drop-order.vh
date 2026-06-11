@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "c-privilege-drop-order"
 platform = "posix-binary"
 architecture = "*:*:*"

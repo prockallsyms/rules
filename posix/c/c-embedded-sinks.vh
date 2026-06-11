@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "c-embedded-sensitive-sink"
 platform = "posix-binary"
 architecture = "*:*:*"

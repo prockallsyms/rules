@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "go-deprecated-jwt-go"
 platform = "posix-binary"
 architecture = "*:*:*"

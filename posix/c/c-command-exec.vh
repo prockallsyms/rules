@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "c-command-execution"
 platform = "posix-binary"
 architecture = "*:*:*"

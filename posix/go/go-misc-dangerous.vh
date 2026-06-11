@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "go-dangerous-stdlib-use"
 platform = "posix-binary"
 architecture = "*:*:*"

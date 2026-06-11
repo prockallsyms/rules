@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "go-raw-sql-query"
 platform = "posix-binary"
 architecture = "*:*:*"

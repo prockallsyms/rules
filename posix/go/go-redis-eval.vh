@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "go-redis-server-side-eval"
 platform = "posix-binary"
 architecture = "*:*:*"

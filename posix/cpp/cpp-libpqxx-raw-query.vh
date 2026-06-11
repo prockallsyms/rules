@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "cpp-libpqxx-raw-query"
 platform = "posix-binary"
 architecture = "*:*:*"

@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "c-tls-missing-hostname-verification"
 platform = "posix-binary"
 architecture = "*:*:*"

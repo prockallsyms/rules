@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "c-unbounded-input"
 platform = "posix-binary"
 architecture = "*:*:*"

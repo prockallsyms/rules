@@ -1,4 +1,4 @@
-author = "vulhunt-dev"
+author = "prockallsyms"
 name = "go-jwt-unverified-parse"
 platform = "posix-binary"
 architecture = "*:*:*"
