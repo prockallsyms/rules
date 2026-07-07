@@ -1,4 +1,4 @@
-author = "vulhunt-pipeline"
+author = "prockallsyms"
 name = "GO-2024-2978"
 platform = "posix-binary"
 architecture = "*:*:*"

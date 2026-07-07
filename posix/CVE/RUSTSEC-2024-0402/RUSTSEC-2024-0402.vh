@@ -1,4 +1,4 @@
-author = "vulhunt-cve-pipeline"
+author = "prockallsyms"
 name = "RUSTSEC-2024-0402"
 platform = "posix-binary"
 architecture = "*:*:*"

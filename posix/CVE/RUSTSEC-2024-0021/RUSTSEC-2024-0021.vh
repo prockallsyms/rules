@@ -1,4 +1,4 @@
-author = "vulhunt"
+author = "prockallsyms"
 name = "RUSTSEC-2024-0021"
 platform = "posix-binary"
 architecture = "*:*:*"
