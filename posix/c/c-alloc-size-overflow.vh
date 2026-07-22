@@ -21,15 +21,20 @@ local function count(m) if m == nil then return 0 end local d = m:dump() return 
 
 function check(project, context)
   local fa = context.caller.address
-  local d = project:decompile(fa)
-  local f = type(d) == "table" and d[1] or d
-  if f == nil then return end
-  -- any allocator call whose size argument is a product of two non-constant terms
-  local hits = count(f:query("malloc($a * $b);"))
-             + count(f:query("realloc(_, $a * $b);"))
-             + count(f:query("calloc($a * $b, _);"))
-             + count(f:query("aligned_alloc(_, $a * $b);"))
-  if hits > 0 then
+  -- pcall-guard the decompile+query: on some binaries project:decompile / f:query can raise,
+  -- and an uncaught error here poisons the ENTIRE scan dir (zeroes all findings). Catch it so a
+  -- raise degrades to "no finding" for this function instead of nuking sibling rules' results.
+  local ok, hits = pcall(function()
+    local d = project:decompile(fa)
+    local f = type(d) == "table" and d[1] or d
+    if f == nil then return 0 end
+    -- any allocator call whose size argument is a product of two non-constant terms
+    return count(f:query("malloc($a * $b);"))
+         + count(f:query("realloc(_, $a * $b);"))
+         + count(f:query("calloc($a * $b, _);"))
+         + count(f:query("aligned_alloc(_, $a * $b);"))
+  end)
+  if ok and hits and hits > 0 then
     return result:medium{
       name = "alloc-size-multiplication",
       description = "Allocation size is computed by multiplication; if the factors are attacker-influenced this can integer-overflow and under-allocate, leading to heap overflow. (CWE-190/CWE-131)",
